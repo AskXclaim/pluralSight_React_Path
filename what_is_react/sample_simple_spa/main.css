@@ -1,0 +1,11 @@
+button{
+    min-height: 30px;
+    border-radius: 10px;
+    border: solid 1px lightgray ;
+    padding: 5px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.1);
+}
