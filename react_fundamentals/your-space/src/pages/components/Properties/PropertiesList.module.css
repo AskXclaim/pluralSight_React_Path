@@ -1,0 +1,6 @@
+
+.propertiesList {
+     tr:hover td, tbody tr:hover td {
+        background-color: #e7f1ff;
+    }
+}
