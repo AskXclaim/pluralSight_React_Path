@@ -1,0 +1,15 @@
+tr{
+  cursor: pointer;
+}
+.theme-font-color{
+  color: #15273c;
+}
+.fs-3-rem{
+  font-size:  3rem;
+}
+.ls-2-px{
+  letter-spacing: 2px;
+}
+.border-bottom-only{
+  border-bottom: solid #cfdeef;
+}
