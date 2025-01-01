@@ -1,8 +1,16 @@
+import {useEffect, useState} from "react";
+import {formatPriceToLocaleDisplayCurrency} from "@/helpers";
+
 const Property = ({property}) => {
-    return (
+    const [isClient, setIsClient] = useState(false);
+    useEffect(() => {
+            setIsClient(true);
+        }
+        , [])
+    return ( 
         <tr>    
             <td> {property.address}</td>
-            <td> {property.price}</td>
+            <td> {isClient ? formatPriceToLocaleDisplayCurrency(property.price) : "...loading"}</td>
         </tr>
     )
 }
